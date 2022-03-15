@@ -2,7 +2,10 @@ import config from "./config.js";
 import { Controller } from "./controller.js";
 import { logger } from "./util.js";
 
-const { location, pages: homeHTML } = config;
+const {
+  location,
+  pages: { homeHTML },
+} = config;
 const controller = new Controller();
 
 async function routes(request, response) {
