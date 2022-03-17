@@ -1,7 +1,7 @@
-import fs from "fs";
-import fsPromises from "fs/promises";
-import { join, extname } from "path";
-import config from "./config.js";
+import fs from 'fs';
+import fsPromises from 'fs/promises';
+import { join, extname } from 'path';
+import config from './config.js';
 
 const {
   dir: { publicDirectory },

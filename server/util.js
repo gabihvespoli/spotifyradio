@@ -1,10 +1,10 @@
-import pino from "pino";
+import pino from 'pino';
 
 const log = pino({
   // prettier-ignore
   enabled: !(!!process.env.LOG_DISABLED),
   transport: {
-    target: "pino-pretty",
+    target: 'pino-pretty',
     options: {
       colorize: true,
     },
